@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C4E63061CC1335200D803A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E63051CC1335200D803A0 /* main.m */; };
+		1C4E63091CC1335200D803A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E63081CC1335200D803A0 /* AppDelegate.m */; };
+		1C4E630C1CC1335200D803A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E630B1CC1335200D803A0 /* ViewController.m */; };
+		1C4E630F1CC1335200D803A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4E630D1CC1335200D803A0 /* Main.storyboard */; };
+		1C4E63121CC1335200D803A0 /* shineLight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E63101CC1335200D803A0 /* shineLight.xcdatamodeld */; };
+		1C4E63141CC1335200D803A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4E63131CC1335200D803A0 /* Assets.xcassets */; };
+		1C4E63171CC1335200D803A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4E63151CC1335200D803A0 /* LaunchScreen.storyboard */; };
+		1C4E63221CC1335200D803A0 /* shineLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E63211CC1335200D803A0 /* shineLightTests.m */; };
+		1C4E632D1CC1335200D803A0 /* shineLightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E632C1CC1335200D803A0 /* shineLightUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C4E631E1CC1335200D803A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C4E62F91CC1335200D803A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4E63001CC1335200D803A0;
+			remoteInfo = shineLight;
+		};
+		1C4E63291CC1335200D803A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C4E62F91CC1335200D803A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4E63001CC1335200D803A0;
+			remoteInfo = shineLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C4E63011CC1335200D803A0 /* shineLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shineLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4E63051CC1335200D803A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C4E63071CC1335200D803A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C4E63081CC1335200D803A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C4E630A1CC1335200D803A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C4E630B1CC1335200D803A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C4E630E1CC1335200D803A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C4E63111CC1335200D803A0 /* shineLight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shineLight.xcdatamodel; sourceTree = "<group>"; };
+		1C4E63131CC1335200D803A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C4E63161CC1335200D803A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C4E63181CC1335200D803A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4E631D1CC1335200D803A0 /* shineLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shineLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4E63211CC1335200D803A0 /* shineLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shineLightTests.m; sourceTree = "<group>"; };
+		1C4E63231CC1335200D803A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4E63281CC1335200D803A0 /* shineLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shineLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4E632C1CC1335200D803A0 /* shineLightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shineLightUITests.m; sourceTree = "<group>"; };
+		1C4E632E1CC1335200D803A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C4E62FE1CC1335200D803A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4E631A1CC1335200D803A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4E63251CC1335200D803A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C4E62F81CC1335200D803A0 = {
+			isa = PBXGroup;
+			children = (
+				1C4E63031CC1335200D803A0 /* shineLight */,
+				1C4E63201CC1335200D803A0 /* shineLightTests */,
+				1C4E632B1CC1335200D803A0 /* shineLightUITests */,
+				1C4E63021CC1335200D803A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C4E63021CC1335200D803A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C4E63011CC1335200D803A0 /* shineLight.app */,
+				1C4E631D1CC1335200D803A0 /* shineLightTests.xctest */,
+				1C4E63281CC1335200D803A0 /* shineLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C4E63031CC1335200D803A0 /* shineLight */ = {
+			isa = PBXGroup;
+			children = (
+				1C4E63071CC1335200D803A0 /* AppDelegate.h */,
+				1C4E63081CC1335200D803A0 /* AppDelegate.m */,
+				1C4E630A1CC1335200D803A0 /* ViewController.h */,
+				1C4E630B1CC1335200D803A0 /* ViewController.m */,
+				1C4E630D1CC1335200D803A0 /* Main.storyboard */,
+				1C4E63131CC1335200D803A0 /* Assets.xcassets */,
+				1C4E63151CC1335200D803A0 /* LaunchScreen.storyboard */,
+				1C4E63181CC1335200D803A0 /* Info.plist */,
+				1C4E63101CC1335200D803A0 /* shineLight.xcdatamodeld */,
+				1C4E63041CC1335200D803A0 /* Supporting Files */,
+			);
+			path = shineLight;
+			sourceTree = "<group>";
+		};
+		1C4E63041CC1335200D803A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C4E63051CC1335200D803A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C4E63201CC1335200D803A0 /* shineLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C4E63211CC1335200D803A0 /* shineLightTests.m */,
+				1C4E63231CC1335200D803A0 /* Info.plist */,
+			);
+			path = shineLightTests;
+			sourceTree = "<group>";
+		};
+		1C4E632B1CC1335200D803A0 /* shineLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C4E632C1CC1335200D803A0 /* shineLightUITests.m */,
+				1C4E632E1CC1335200D803A0 /* Info.plist */,
+			);
+			path = shineLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C4E63001CC1335200D803A0 /* shineLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4E63311CC1335200D803A0 /* Build configuration list for PBXNativeTarget "shineLight" */;
+			buildPhases = (
+				1C4E62FD1CC1335200D803A0 /* Sources */,
+				1C4E62FE1CC1335200D803A0 /* Frameworks */,
+				1C4E62FF1CC1335200D803A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shineLight;
+			productName = shineLight;
+			productReference = 1C4E63011CC1335200D803A0 /* shineLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C4E631C1CC1335200D803A0 /* shineLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4E63341CC1335200D803A0 /* Build configuration list for PBXNativeTarget "shineLightTests" */;
+			buildPhases = (
+				1C4E63191CC1335200D803A0 /* Sources */,
+				1C4E631A1CC1335200D803A0 /* Frameworks */,
+				1C4E631B1CC1335200D803A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C4E631F1CC1335200D803A0 /* PBXTargetDependency */,
+			);
+			name = shineLightTests;
+			productName = shineLightTests;
+			productReference = 1C4E631D1CC1335200D803A0 /* shineLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C4E63271CC1335200D803A0 /* shineLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4E63371CC1335200D803A0 /* Build configuration list for PBXNativeTarget "shineLightUITests" */;
+			buildPhases = (
+				1C4E63241CC1335200D803A0 /* Sources */,
+				1C4E63251CC1335200D803A0 /* Frameworks */,
+				1C4E63261CC1335200D803A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C4E632A1CC1335200D803A0 /* PBXTargetDependency */,
+			);
+			name = shineLightUITests;
+			productName = shineLightUITests;
+			productReference = 1C4E63281CC1335200D803A0 /* shineLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C4E62F91CC1335200D803A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zjj;
+				TargetAttributes = {
+					1C4E63001CC1335200D803A0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1C4E631C1CC1335200D803A0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1C4E63001CC1335200D803A0;
+					};
+					1C4E63271CC1335200D803A0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1C4E63001CC1335200D803A0;
+					};
+				};
+			};
+			buildConfigurationList = 1C4E62FC1CC1335200D803A0 /* Build configuration list for PBXProject "shineLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C4E62F81CC1335200D803A0;
+			productRefGroup = 1C4E63021CC1335200D803A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C4E63001CC1335200D803A0 /* shineLight */,
+				1C4E631C1CC1335200D803A0 /* shineLightTests */,
+				1C4E63271CC1335200D803A0 /* shineLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C4E62FF1CC1335200D803A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4E63171CC1335200D803A0 /* LaunchScreen.storyboard in Resources */,
+				1C4E63141CC1335200D803A0 /* Assets.xcassets in Resources */,
+				1C4E630F1CC1335200D803A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4E631B1CC1335200D803A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4E63261CC1335200D803A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4E62FD1CC1335200D803A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4E630C1CC1335200D803A0 /* ViewController.m in Sources */,
+				1C4E63091CC1335200D803A0 /* AppDelegate.m in Sources */,
+				1C4E63121CC1335200D803A0 /* shineLight.xcdatamodeld in Sources */,
+				1C4E63061CC1335200D803A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4E63191CC1335200D803A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4E63221CC1335200D803A0 /* shineLightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4E63241CC1335200D803A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4E632D1CC1335200D803A0 /* shineLightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C4E631F1CC1335200D803A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C4E63001CC1335200D803A0 /* shineLight */;
+			targetProxy = 1C4E631E1CC1335200D803A0 /* PBXContainerItemProxy */;
+		};
+		1C4E632A1CC1335200D803A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C4E63001CC1335200D803A0 /* shineLight */;
+			targetProxy = 1C4E63291CC1335200D803A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C4E630D1CC1335200D803A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C4E630E1CC1335200D803A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C4E63151CC1335200D803A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C4E63161CC1335200D803A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C4E632F1CC1335200D803A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C4E63301CC1335200D803A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C4E63321CC1335200D803A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shineLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjj.shineLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C4E63331CC1335200D803A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shineLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjj.shineLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C4E63351CC1335200D803A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shineLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjj.shineLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shineLight.app/shineLight";
+			};
+			name = Debug;
+		};
+		1C4E63361CC1335200D803A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shineLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjj.shineLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shineLight.app/shineLight";
+			};
+			name = Release;
+		};
+		1C4E63381CC1335200D803A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shineLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjj.shineLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shineLight;
+			};
+			name = Debug;
+		};
+		1C4E63391CC1335200D803A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shineLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjj.shineLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shineLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C4E62FC1CC1335200D803A0 /* Build configuration list for PBXProject "shineLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4E632F1CC1335200D803A0 /* Debug */,
+				1C4E63301CC1335200D803A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C4E63311CC1335200D803A0 /* Build configuration list for PBXNativeTarget "shineLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4E63321CC1335200D803A0 /* Debug */,
+				1C4E63331CC1335200D803A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C4E63341CC1335200D803A0 /* Build configuration list for PBXNativeTarget "shineLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4E63351CC1335200D803A0 /* Debug */,
+				1C4E63361CC1335200D803A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C4E63371CC1335200D803A0 /* Build configuration list for PBXNativeTarget "shineLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4E63381CC1335200D803A0 /* Debug */,
+				1C4E63391CC1335200D803A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C4E63101CC1335200D803A0 /* shineLight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C4E63111CC1335200D803A0 /* shineLight.xcdatamodel */,
+			);
+			currentVersion = 1C4E63111CC1335200D803A0 /* shineLight.xcdatamodel */;
+			path = shineLight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C4E62F91CC1335200D803A0 /* Project object */;
+}
